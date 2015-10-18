@@ -69,7 +69,13 @@ int main(int argc, const char * argv[])
     // coordinate system
     CoordSystem* cs = new CoordSystem(40.0);
 
-	GLSphereDirect* sphere_diffuse = new GLSphereDirect(12.0, 0.0, 0.0, 1.0, 90, 50);
+    GLSphereDirect* sphere_diffuse = new GLSphereDirect(0.0, 0.0, 0.0, 5.0, 90, 50);
+
+    GLSphereHighlight* sphere_highlight = new GLSphereHighlight(0.0, 0.0, 0.0, 5.0, 90, 50);
+
+    GLSphereLittle* sphere_little = new GLSphereLittle(0.0, 0.0, 0.0, 5.0, 90, 50);
+
+    GLSphereSpot* sphere_spotlight = new GLSphereSport(0.0, 0.0, 0.0, 5.0, 90, 50);
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //// Main render loop
     
@@ -105,14 +111,14 @@ int main(int argc, const char * argv[])
         
         // draw the objects
         cs->draw();
-        
+       
+        sphere_diffuse->draw();
+
         sphere_highlight->draw();
 
-		sphere_diffuse->draw();
+        sphere_spotlight->draw();
 
-		sphere_spotlight->draw();
-
-		sphere_little->draw();
+        sphere_little->draw();
         
         //// This renders the objects
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
