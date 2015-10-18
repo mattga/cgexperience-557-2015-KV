@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Kyle Vansice\Documents\Git_remote_repository\HCI-557\07_SpotLight\CMakeFiles\83392ed6ef6678dac5f54f5af9525a80\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A42D4B52-9C32-4759-9ECC-89488B8D9465}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+C:/Users/Kyle Vansice/Documents/Git_remote_repository/HCI-557/07_SpotLight/CMakeFiles/ALL_BUILD.dir
+C:/Users/Kyle Vansice/Documents/Git_remote_repository/HCI-557/07_SpotLight/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Kyle Vansice/Documents/Git_remote_repository/HCI-557/07_SpotLight/CMakeFiles/HCI557_Spotlight.dir
